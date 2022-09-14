@@ -7,6 +7,7 @@ const nextConfig = {
     nodeEnv: process.env.NODE_ENV,
     videoHistoryDbHost: process.env.VIDEO_HISTORY_DB_HOST,
     videoHistoryDbCollection: process.env.VIDEO_HISTORY_DB_COLLECTION,
+    rabbit: process.env.RABBIT,
   },
 };
 

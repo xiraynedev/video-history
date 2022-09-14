@@ -11,7 +11,10 @@ export default function Home() {
       <div>
         <h1>History Microservice Online</h1>
         <Link href='/api/view?id=632246dcd074f1cb6bd961cf' passHref>
-          <Button variant='contained' size='large'>Proceed to viewed history</Button>
+          <Button variant='contained' size='large' sx={{marginRight: 2}}>Proceed to viewed history</Button>
+        </Link>
+        <Link href='/api/rabbit' passHref>
+          <Button variant='contained' size='large'>Connect to RabbitMQ Management Console</Button>
         </Link>
       </div>
     </>
