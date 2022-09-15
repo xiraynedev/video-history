@@ -9,7 +9,5 @@ export default async function handler(
 
   const messageChannel = await connectRabbit();
 
-  console.log(messageChannel);
-
-  res.end();
+  res.send('The messageChannel has been created!');
 }
