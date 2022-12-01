@@ -9,4 +9,4 @@
 
 # video-history
 
-This application is a Next.js and TypeScript microservice that works with MongoDB to store video streaming metadata.
+This project is a Next.js and TypeScript microservice that works with MongoDB to store video streaming metadata.
